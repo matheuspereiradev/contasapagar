@@ -22,6 +22,10 @@ export function Routes() {
                     <Screen
                         name="Home"
                         component={Home}
+                        options={{
+                            headerTitle: 'Menu',
+                            headerTintColor: colors.textOutlineInput
+                        }}
                     />
                 </Navigator>
             </NavigationContainer>

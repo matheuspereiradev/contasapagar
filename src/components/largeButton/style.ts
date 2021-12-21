@@ -4,15 +4,14 @@ import { colors } from '../../values/colors';
 export const style = StyleSheet.create({
     container: {
         width: '100%',
-        height: 56,
-        backgroundColor: colors.blue50,
-        borderRadius: 8,
-        flexDirection: 'row',
-        alignItems: 'center'
+        padding: 5,
+        height: 100,
+        alignItems: 'center',
+        marginVertical: 5
     },
     title: {
         flex: 1,
-        fontSize: 15,
+        fontSize: 18,
         textAlign: 'center',
         color: 'white'
     },
@@ -20,11 +19,10 @@ export const style = StyleSheet.create({
         width: 56,
         height: 56,
         justifyContent: 'center',
-        alignItems: 'center',
-        borderRightWidth: 1
+        alignItems: 'center'
     },
     icon: {
-        width: 24,
-        height: 18
+        width: 30,
+        height: 20
     }
 });

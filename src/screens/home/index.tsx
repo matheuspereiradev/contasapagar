@@ -13,12 +13,14 @@ export function Home() {
     const { primaryBlack, blue50, secundaryRed } = colors;
 
     return (
-        <ScrollView>
-            <Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>
-                Press me
-            </Button>
-            <LargeButton title="Press" icon="user" pressButton={() => { console.log('oi') }} />
-            <Text>Open up App.tsx to start working on your app!</Text>
+        <ScrollView style={{
+            marginHorizontal: 5
+        }}>
+            <LargeButton title="Produtos" icon="food" color={colors.buttonYellow} pressButton={() => { console.log('oi') }} />
+            <LargeButton title="Pessoas" icon="account-supervisor" color={colors.buttonGreen} pressButton={() => { console.log('oi') }} />
+            <LargeButton title="Compras" icon="basket" color={colors.skyBlue} pressButton={() => { console.log('oi') }} />
+            <LargeButton title="Contas a Pagar" icon="calendar-month" color={colors.buttonRed} pressButton={() => { console.log('oi') }} />
+            <LargeButton title="Contas Pagas" icon="charity" pressButton={() => { console.log('oi') }} />
         </ScrollView>
     );
 }

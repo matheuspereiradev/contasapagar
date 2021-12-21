@@ -4,14 +4,8 @@ import { getBottomSpace } from 'react-native-iphone-x-helper';
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1
-    },
-    footer: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: getBottomSpace() + 50,
-        paddingHorizontal: 30,
-        paddingVertical: 20,
+        flex: 1,
+        flexDirection: "row"
     },
     image: {
         width: 100,

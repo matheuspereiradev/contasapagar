@@ -15,6 +15,11 @@ export const colors = {
     purple: '#6377F2',
     line: '#991F36',
     gray: '#CECECE',
+
+    buttonBlue: '#3c67fa',
+    buttonGreen: '#0ebd8e',
+    buttonYellow: '#FEAD05',
+    buttonRed: '#F35B44',
     matematicaMilColor: '#012c5f',
     matematicaMilSecundaryColor: '#23948e',
 
