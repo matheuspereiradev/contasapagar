@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors } from '../values/colors';
 import { Home } from '../screens/home';
+import { Products } from '../screens/products';
 const { Navigator, Screen } = createStackNavigator();
 export function Routes() {
 
@@ -24,6 +25,14 @@ export function Routes() {
                         component={Home}
                         options={{
                             headerTitle: 'Menu',
+                            headerTintColor: colors.textOutlineInput
+                        }}
+                    />
+                    <Screen
+                        name="Products"
+                        component={Products}
+                        options={{
+                            headerTitle: 'Produtos',
                             headerTintColor: colors.textOutlineInput
                         }}
                     />
